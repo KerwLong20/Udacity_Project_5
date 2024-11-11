@@ -82,7 +82,7 @@ def authorized():
     if request.args.get('state') != session.get("state"):
         return redirect(url_for("home"))  # No-OP. Goes back to Index page
     if "error" in request.args:  # Authentication/Authorization failure
-        app.logger.warning("invalid login attempt for user")
+        app.logger.warning("invalid username or password. User admin")
         return render_template("auth_error.html", result=request.args)
     if request.args.get('code'):
         cache = _load_cache()
@@ -100,7 +100,7 @@ def authorized():
         user = User.query.filter_by(username="admin").first()
         login_user(user)
         _save_cache(cache)
-app.logger.warning("User admin logged in successfully")
+app.logger.warning("admin logged successfully")
     return redirect(url_for('home'))
 
 @app.route('/logout')
