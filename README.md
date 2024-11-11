@@ -24,23 +24,23 @@ Blob Storage key: 0Uz437lhqkXxigzFlbiOrbTVQSeHo/ATIYzFrZdgOkDn2zEzjQ3gH63EzVH08T
 
 4. Microsoft Entra ID
 4.1. App Registration
-Name: cmsEntraID
+Name: fmsEntraID
 Who can use? "Accounts in any organizational directory (Any Microsoft Entra ID tenant - Multitenant) and personal Microsoft accounts (e.g. Skype, Xbox)"
 4.2. Secret Creation
-Secret description: cmsSecret
-Secret Key: 3a51cadc-dc5f-4503-959d-d4286f24d7a4
-Client Secret: wN48Q~SVo5ecjrNs-Fac1wvs9cRVgXVYPxEmjc.r
-Application (client) ID: 1660e7a3-74ae-4945-aea0-5bd962871c33
+Secret description: test
+Secret Key: 10257b26-789e-4c6a-af01-62511cdb0fe2
+Client Secret: H1s8Q~TW~sIrcQDCB6wxsdJrC8GSAZFZeRnZdck1
+Application (client) ID: e738d0b0-5190-4d36-90e2-b6bc8ed5c0c9
 
 Application
-Name: udacitycms.azurewebsites.net
+Name: udacityfms.azurewebsites.net
 Runtime stack: Python 3.10
 Pricing Plan: Free F1
 If you are getting a "Validation failed for a resource" error, pick a different region.
 After creation:
 
 Settings -> Environment variables - Add the following variables (sample values are included, replace them with your values):
-BLOB_ACCOUNT: image11
+BLOB_ACCOUNT: fmsimages
 BLOB_CONTAINER: images
 BLOB_STORAGE_KEY: 0Uz437lhqkXxigzFlbiOrbTVQSeHo/ATIYzFrZdgOkDn2zEzjQ3gH63EzVH08TuTd0Q0jJFaQX6I+AStU4zf3g==
 
@@ -48,9 +48,9 @@ SQL_SERVER: fmsserver1.database.windows.net
 SQL_DATABASE: fmsdb
 SQL_USER_NAME: cmsadmin
 SQL_PASSWORD: CMS4dmin
-CLIENT_SECRET: liK8Q~KDwIGaXpH1UaR-RS3W0Bk8-apIqD32ectH
-SECRET_KEY: ac2df92a-66cf-4f47-875b-f5d027c33934
-CLIENT_ID: 4cec6730-afad-4714-b5bb-9b2c6666eaba
+CLIENT_SECRET: H1s8Q~TW~sIrcQDCB6wxsdJrC8GSAZFZeRnZdck1
+SECRET_KEY: 10257b26-789e-4c6a-af01-62511cdb0fe2
+CLIENT_ID: e738d0b0-5190-4d36-90e2-b6bc8ed5c0c9
 Deployment Center
 Source: GitHub
 Pick the repo that contains the starter files.
