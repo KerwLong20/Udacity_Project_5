@@ -1,4 +1,7 @@
-"""
+streamHandler = logging.StreamHandler()
+streamHandler.setLevel(logging.WARNING)
+app.logger.addHandler(streamHandler)
+
 The flask application package.
 """
 import logging
