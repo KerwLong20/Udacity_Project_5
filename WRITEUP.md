@@ -24,9 +24,3 @@ If the application is later developed using a programming language not supported
 
 Additionally, using App Service provides limited access to the host server. If I need to control the underlying operating system or install specific software, a Virtual Machine would be the appropriate choice.
 
-### Analyze, choose, and justify the appropriate resource option for deploying the app.
-
-*For **both** a VM or App Service solution for the CMS app:*
-- *Analyze costs, scalability, availability, and workflow*
-- *Choose the appropriate solution (VM or App Service) for deploying the app*
-- *Justify your choice*
