@@ -4,7 +4,7 @@ Accessibility: The web app can be accessed from any device with an internet conn
 
 Maintenance: Debugging and updating the Azure web app is more straightforward because updates and bug fixes can be deployed centrally on the server. This eliminates the need for users to download and install updates. Additionally, addressing security errors, such as updating invalid login messages, is faster and more efficient, benefiting both programmers and end users.
 
-Cost: The web app is significantly more cost-effective, with monthly costs at $54.75 compared to the VM’s $134.75. Neither option has upfront costs, but the web app’s pay-as-you-go model is more economical, especially for applications with fluctuating workloads. Using multiple VMs and configurations only increases costs.
+Cost: The web app is significantly more cost-effective, with monthly costs at $54.75 compared to the VM’s $134.75(Screenshots attached to powerPoint). Neither option has upfront costs, but the web app’s pay-as-you-go model is more economical, especially for applications with fluctuating workloads. Using multiple VMs and configurations only increases costs.
 
 Scalability: Azure Virtual Machines can automatically scale using virtual machine scale sets, providing control over scaling. However, this requires more manual setup and management. In contrast, the Azure web app handles infrastructure, scaling, and maintenance automatically, allowing me to focus on application code rather than server management.
 
